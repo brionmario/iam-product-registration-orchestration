@@ -63,7 +63,10 @@
                     "action": {
                         "type": "EXECUTOR",
                         "name": "GoogleSignUp"
-                    }
+                    },
+                    "next": [
+                        "flow-node-5"
+                    ]
                 }
             ]
         },
