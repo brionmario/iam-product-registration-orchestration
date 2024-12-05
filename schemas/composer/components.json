@@ -6,7 +6,7 @@
         "deprecated": false,
         "variant": "TEXT",
         "display": {
-            "label": "Text",
+            "label": "Text Input",
             "image": "https://www.svgrepo.com/show/437311/textbox.svg"
         },
         "config": {
@@ -32,7 +32,7 @@
         "deprecated": false,
         "variant": "PASSWORD",
         "display": {
-            "label": "Password",
+            "label": "Password Input",
             "image": "https://www.svgrepo.com/show/529125/password.svg"
         },
         "config": {
@@ -56,7 +56,7 @@
         "deprecated": false,
         "variant": "EMAIL",
         "display": {
-            "label": "Email",
+            "label": "Email Input",
             "image": "https://www.svgrepo.com/show/488920/email.svg"
         },
         "config": {
@@ -80,7 +80,7 @@
         "deprecated": false,
         "variant": "TELEPHONE",
         "display": {
-            "label": "Phone",
+            "label": "Phone Input",
             "image": "https://www.svgrepo.com/show/533285/phone.svg"
         },
         "config": {
@@ -104,7 +104,7 @@
         "deprecated": false,
         "variant": "NUMBER",
         "display": {
-            "label": "Number",
+            "label": "Number Input",
             "image": "https://www.svgrepo.com/show/374740/number-input.svg"
         },
         "config": {
@@ -260,8 +260,8 @@
         "version": "0.1.0",
         "deprecated": false,
         "display": {
-            "label": "Heading",
-            "image": "https://www.svgrepo.com/show/507730/heading.svg"
+            "label": "Text",
+            "image": "https://www.svgrepo.com/show/532231/text-size.svg"
         },
         "variants": [
             {
@@ -437,7 +437,7 @@
         "deprecated": false,
         "display": {
             "label": "Rich Text",
-            "image": "https://www.svgrepo.com/show/532231/text-size.svg"
+            "image": "https://www.svgrepo.com/show/374852/display-rich-text.svg"
         },
         "config": {
             "field": {
