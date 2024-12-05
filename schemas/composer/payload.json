@@ -35,7 +35,6 @@
             "actions": [
                 {
                     "id": "flow-action-password-onboarder-p563u9Yn",
-                    "type": "BUTTON",
                     "action": {
                         "type": "NEXT"
                     },
@@ -45,7 +44,6 @@
                 },
                 {
                     "id": "flow-action-email-otp-verifier-5t8uJ6D3",
-                    "type": "BUTTON",
                     "action": {
                         "type": "NEXT"
                     },
@@ -55,7 +53,6 @@
                 },
                 {
                     "id": "flow-action-google-sign-up-Rt8uJ6D3",
-                    "type": "BUTTON",
                     "action": {
                         "type": "EXECUTOR",
                         "name": "GoogleSignUp"
@@ -76,7 +73,6 @@
             "actions": [
                 {
                     "id": "flow-action-next-ggh688op",
-                    "type": "submit",
                     "action": {
                         "type": "EXECUTOR",
                         "name": "PasswordOnboarder"
@@ -87,7 +83,6 @@
                 },
                 {
                     "id": "flow-action-go-back-rtessdf3",
-                    "type": "button",
                     "action": {
                         "type": "PREVIOUS"
                     },
@@ -107,7 +102,6 @@
             "actions": [
                 {
                     "id": "flow-action-next-tyG3hp31",
-                    "type": "submit",
                     "action": {
                         "type": "EXECUTOR",
                         "name": "EmailOTPVerifier"
@@ -118,7 +112,6 @@
                 },
                 {
                     "id": "flow-action-go-back-er212kfl",
-                    "type": "button",
                     "action": {
                         "type": "PREVIOUS"
                     },
@@ -138,7 +131,6 @@
             "actions": [
                 {
                     "id": "flow-action-verify-otp-ssd5g6h",
-                    "type": "submit",
                     "action": {
                         "type": "NEXT",
                         "meta": {
@@ -151,7 +143,6 @@
                 },
                 {
                     "id": "flow-action-go-back-yt5g5t",
-                    "type": "button",
                     "action": {
                         "type": "PREVIOUS"
                     },
@@ -170,7 +161,6 @@
             "actions": [
                 {
                     "id": "flow-action-done-5t8uJ6D3",
-                    "type": "submit",
                     "action": {
                         "type": "DONE"
                     }
