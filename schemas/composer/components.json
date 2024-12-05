@@ -256,6 +256,182 @@
     },
     {
         "category": "DISPLAY",
+        "type": "TYPOGRAPHY",
+        "version": "0.1.0",
+        "deprecated": false,
+        "display": {
+            "label": "Heading",
+            "image": "https://www.svgrepo.com/show/507730/heading.svg"
+        },
+        "variants": [
+            {
+                "category": "DISPLAY",
+                "type": "TYPOGRAPHY",
+                "version": "0.1.0",
+                "variant": "H1",
+                "deprecated": false,
+                "display": {
+                    "label": "H1",
+                    "image": null
+                },
+                "config": {
+                    "field": {
+                        "className": "wso2is-typography h1",
+                        "text": "Heading - H1"
+                    },
+                    "styles": {
+                        "textAlign": "center"
+                    }
+                }
+            },
+            {
+                "category": "DISPLAY",
+                "type": "TYPOGRAPHY",
+                "version": "0.1.0",
+                "variant": "H2",
+                "deprecated": false,
+                "display": {
+                    "label": "H2",
+                    "image": null
+                },
+                "config": {
+                    "field": {
+                        "className": "wso2is-typography h2",
+                        "text": "Heading - H2"
+                    },
+                    "styles": {
+                        "textAlign": "center"
+                    }
+                }
+            },
+            {
+                "category": "DISPLAY",
+                "type": "TYPOGRAPHY",
+                "version": "0.1.0",
+                "variant": "H3",
+                "deprecated": false,
+                "display": {
+                    "label": "H3",
+                    "image": null
+                },
+                "config": {
+                    "field": {
+                        "className": "wso2is-typography h3",
+                        "text": "Heading - H3"
+                    },
+                    "styles": {
+                        "textAlign": "center"
+                    }
+                }
+            },
+            {
+                "category": "DISPLAY",
+                "type": "TYPOGRAPHY",
+                "version": "0.1.0",
+                "variant": "H4",
+                "deprecated": false,
+                "display": {
+                    "label": "H4",
+                    "image": null
+                },
+                "config": {
+                    "field": {
+                        "className": "wso2is-typography h4",
+                        "text": "Heading - H4"
+                    },
+                    "styles": {
+                        "textAlign": "center"
+                    }
+                }
+            },
+            {
+                "category": "DISPLAY",
+                "type": "TYPOGRAPHY",
+                "version": "0.1.0",
+                "variant": "H5",
+                "deprecated": false,
+                "display": {
+                    "label": "H5",
+                    "image": null
+                },
+                "config": {
+                    "field": {
+                        "className": "wso2is-typography h5",
+                        "text": "Heading - H5"
+                    },
+                    "styles": {
+                        "textAlign": "center"
+                    }
+                }
+            },
+            {
+                "category": "DISPLAY",
+                "type": "TYPOGRAPHY",
+                "version": "0.1.0",
+                "variant": "H6",
+                "deprecated": false,
+                "display": {
+                    "label": "H6",
+                    "image": null
+                },
+                "config": {
+                    "field": {
+                        "className": "wso2is-typography h6",
+                        "text": "Heading - H6"
+                    },
+                    "styles": {
+                        "textAlign": "center"
+                    }
+                }
+            },
+            {
+                "category": "DISPLAY",
+                "type": "TYPOGRAPHY",
+                "version": "0.1.0",
+                "variant": "BODY1",
+                "deprecated": false,
+                "display": {
+                    "label": "Body1",
+                    "image": null
+                },
+                "config": {
+                    "field": {
+                        "className": "wso2is-typography body1",
+                        "text": "Body Text"
+                    },
+                    "styles": {
+                        "fontSize": "14px",
+                        "fontWeight": "400",
+                        "textAlign": "center"
+                    }
+                }
+            },
+            {
+                "category": "DISPLAY",
+                "type": "TYPOGRAPHY",
+                "version": "0.1.0",
+                "variant": "BODY2",
+                "deprecated": false,
+                "display": {
+                    "label": "Body2",
+                    "image": null
+                },
+                "config": {
+                    "field": {
+                        "className": "wso2is-typography body2",
+                        "text": "Body Text - Muted"
+                    },
+                    "styles": {
+                        "fontSize": "12px",
+                        "fontWeight": "400",
+                        "textAlign": "center"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "category": "DISPLAY",
         "type": "RICH_TEXT",
         "version": "0.1.0",
         "deprecated": false,

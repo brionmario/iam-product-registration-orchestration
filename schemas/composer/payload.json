@@ -216,12 +216,13 @@
         {
             "id": "flow-display-header-8uJ6t4D3",
             "category": "DISPLAY",
-            "type": "RICH_TEXT",
+            "type": "TYPOGRAPHY",
             "version": "0.1.0",
+            "variant": "H3",
             "config": {
                 "field": {
-                    "className": "wso2is-rich-text",
-                    "text": "<h3 class=\"ui header\">Register Account</h3>"
+                    "className": "wso2is-typography h3",
+                    "text": "Register Account"
                 },
                 "styles": {
                     "textAlign": "center"
@@ -404,12 +405,13 @@
         {
             "id": "flow-display-header-hj6t4D3",
             "category": "DISPLAY",
-            "type": "RICH_TEXT",
+            "type": "TYPOGRAPHY",
             "version": "0.1.0",
+            "variant": "H3",
             "config": {
                 "field": {
-                    "className": "wso2is-rich-text",
-                    "text": "<h3 class=\"ui header\">Enter Password</h3>"
+                    "className": "wso2is-typography h3",
+                    "text": "Enter Password"
                 },
                 "styles": {
                     "textAlign": "center"
@@ -478,12 +480,13 @@
         {
             "id": "flow-display-header-hj6t4D3",
             "category": "DISPLAY",
-            "type": "RICH_TEXT",
+            "type": "TYPOGRAPHY",
             "version": "0.1.0",
+            "variant": "H3",
             "config": {
                 "field": {
-                    "className": "wso2is-rich-text",
-                    "text": "<h3 class=\"ui header\">Enter Email</h3>"
+                    "className": "wso2is-typography h3",
+                    "text": "Enter Email"
                 },
                 "styles": {
                     "textAlign": "center"
@@ -548,12 +551,13 @@
         {
             "id": "flow-display-header-GG456y7",
             "category": "DISPLAY",
-            "type": "RICH_TEXT",
+            "type": "TYPOGRAPHY",
             "version": "0.1.0",
+            "variant": "H3",
             "config": {
                 "field": {
-                    "className": "wso2is-rich-text",
-                    "text": "<h3 class=\"ui header\">OTP Verification</h3>"
+                    "className": "wso2is-typography h3",
+                    "text": "OTP Verification"
                 },
                 "styles": {
                     "textAlign": "center"
@@ -618,12 +622,13 @@
         {
             "id": "flow-display-header-45wTrU",
             "category": "DISPLAY",
-            "type": "RICH_TEXT",
+            "type": "TYPOGRAPHY",
             "version": "0.1.0",
+            "variant": "H3",
             "config": {
                 "field": {
-                    "className": "wso2is-rich-text",
-                    "text": "<h3 class=\"ui header\">Enter Personal Details</h3>"
+                    "className": "wso2is-typography h3",
+                    "text": "Enter Personal Details"
                 },
                 "styles": {
                     "textAlign": "center"
