@@ -231,7 +231,7 @@
             "config": {
                 "field": {
                     "className": "wso2is-rich-text",
-                    "text": "<h1 class=\"ui header\">Register Account</h1>"
+                    "text": "<h3 class=\"ui header\">Register Account</h3>"
                 },
                 "styles": {
                     "textAlign": "center"
@@ -419,7 +419,7 @@
             "config": {
                 "field": {
                     "className": "wso2is-rich-text",
-                    "text": "<h1 class=\"ui header\">Enter Password</h1>"
+                    "text": "<h3 class=\"ui header\">Enter Password</h3>"
                 },
                 "styles": {
                     "textAlign": "center"
@@ -493,7 +493,7 @@
             "config": {
                 "field": {
                     "className": "wso2is-rich-text",
-                    "text": "<h1 class=\"ui header\">Enter Email</h1>"
+                    "text": "<h3 class=\"ui header\">Enter Email</h3>"
                 },
                 "styles": {
                     "textAlign": "center"
@@ -563,7 +563,7 @@
             "config": {
                 "field": {
                     "className": "wso2is-rich-text",
-                    "text": "<h1 class=\"ui header\">OTP Verification</h1>"
+                    "text": "<h3 class=\"ui header\">OTP Verification</h3>"
                 },
                 "styles": {
                     "textAlign": "center"
@@ -633,7 +633,7 @@
             "config": {
                 "field": {
                     "className": "wso2is-rich-text",
-                    "text": "<h1 class=\"ui header\">Enter Personal Details</h1>"
+                    "text": "<h3 class=\"ui header\">Enter Personal Details</h3>"
                 },
                 "styles": {
                     "textAlign": "center"
