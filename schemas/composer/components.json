@@ -256,204 +256,22 @@
     },
     {
         "category": "DISPLAY",
-        "type": "TYPOGRAPHY",
+        "type": "RICH_TEXT",
         "version": "0.1.0",
         "deprecated": false,
         "display": {
-            "label": "Typography",
+            "label": "Rich Text",
             "image": "https://www.svgrepo.com/show/532231/text-size.svg"
         },
-        "variants": [
-            {
-                "category": "DISPLAY",
-                "type": "TYPOGRAPHY",
-                "version": "0.1.0",
-                "variant": "H1",
-                "deprecated": false,
-                "display": {
-                    "label": "H1",
-                    "image": null
-                },
-                "config": {
-                    "field": {
-                        "className": "wso2is-typography h1",
-                        "text": "Register Account"
-                    },
-                    "styles": {
-                        "textAlign": "center"
-                    }
-                }
+        "config": {
+            "field": {
+                "className": "wso2is-rich-text",
+                "text": "<h1 class=\"ui header\">Rich Text</h1>"
             },
-            {
-                "category": "DISPLAY",
-                "type": "TYPOGRAPHY",
-                "version": "0.1.0",
-                "variant": "H2",
-                "deprecated": false,
-                "display": {
-                    "label": "H2",
-                    "image": null
-                },
-                "config": {
-                    "field": {
-                        "className": "wso2is-typography h2",
-                        "text": "Register Account"
-                    },
-                    "styles": {
-                        "textAlign": "center"
-                    }
-                }
-            },
-            {
-                "category": "DISPLAY",
-                "type": "TYPOGRAPHY",
-                "version": "0.1.0",
-                "variant": "H3",
-                "deprecated": false,
-                "display": {
-                    "label": "H3",
-                    "image": null
-                },
-                "config": {
-                    "field": {
-                        "className": "wso2is-typography h3",
-                        "text": "Register Account"
-                    },
-                    "styles": {
-                        "textAlign": "center"
-                    }
-                }
-            },
-            {
-                "category": "DISPLAY",
-                "type": "TYPOGRAPHY",
-                "version": "0.1.0",
-                "variant": "H4",
-                "deprecated": false,
-                "display": {
-                    "label": "H4",
-                    "image": null
-                },
-                "config": {
-                    "field": {
-                        "className": "wso2is-typography h4",
-                        "text": "Register Account"
-                    },
-                    "styles": {
-                        "textAlign": "center"
-                    }
-                }
-            },
-            {
-                "category": "DISPLAY",
-                "type": "TYPOGRAPHY",
-                "version": "0.1.0",
-                "variant": "H5",
-                "deprecated": false,
-                "display": {
-                    "label": "H5",
-                    "image": null
-                },
-                "config": {
-                    "field": {
-                        "className": "wso2is-typography h5",
-                        "text": "Register Account"
-                    },
-                    "styles": {
-                        "textAlign": "center"
-                    }
-                }
-            },
-            {
-                "category": "DISPLAY",
-                "type": "TYPOGRAPHY",
-                "version": "0.1.0",
-                "variant": "H6",
-                "deprecated": false,
-                "display": {
-                    "label": "H6",
-                    "image": null
-                },
-                "config": {
-                    "field": {
-                        "className": "wso2is-typography h6",
-                        "text": "Register Account"
-                    },
-                    "styles": {
-                        "textAlign": "center"
-                    }
-                }
-            },
-            {
-                "category": "DISPLAY",
-                "type": "TYPOGRAPHY",
-                "version": "0.1.0",
-                "variant": "BODY1",
-                "deprecated": false,
-                "display": {
-                    "label": "Body1",
-                    "image": null
-                },
-                "config": {
-                    "field": {
-                        "className": "wso2is-typography body1",
-                        "text": "Enter your details to register an account."
-                    },
-                    "styles": {
-                        "fontSize": "14px",
-                        "color": "#333333",
-                        "fontWeight": "400",
-                        "textAlign": "center"
-                    }
-                }
-            },
-            {
-                "category": "DISPLAY",
-                "type": "TYPOGRAPHY",
-                "version": "0.1.0",
-                "variant": "BODY2",
-                "deprecated": false,
-                "display": {
-                    "label": "Body2",
-                    "image": null
-                },
-                "config": {
-                    "field": {
-                        "className": "wso2is-typography body2",
-                        "text": "Enter your details to register an account."
-                    },
-                    "styles": {
-                        "fontSize": "12px",
-                        "color": "#333333",
-                        "fontWeight": "400",
-                        "textAlign": "center"
-                    }
-                }
-            },
-            {
-                "category": "DISPLAY",
-                "type": "TYPOGRAPHY",
-                "version": "0.1.0",
-                "variant": "CAPTION",
-                "deprecated": false,
-                "display": {
-                    "label": "Caption",
-                    "image": null
-                },
-                "config": {
-                    "field": {
-                        "className": "wso2is-typography caption",
-                        "text": "By clicking the Register button, you agree to our Terms and Conditions."
-                    },
-                    "styles": {
-                        "fontSize": "10px",
-                        "color": "#333333",
-                        "fontWeight": "400",
-                        "textAlign": "center"
-                    }
-                }
+            "styles": {
+                "textAlign": "center"
             }
-        ]
+        }
     },
     {
         "category": "DISPLAY",
