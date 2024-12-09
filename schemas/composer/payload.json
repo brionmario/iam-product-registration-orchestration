@@ -36,7 +36,8 @@
                 {
                     "id": "flow-action-password-onboarder-p563u9Yn",
                     "action": {
-                        "type": "NEXT"
+                        "type": "EXECUTOR",
+                        "name": ["PasswordOnboarder"]
                     },
                     "next": [
                         "flow-node-2"
@@ -45,7 +46,8 @@
                 {
                     "id": "flow-action-email-otp-verifier-5t8uJ6D3",
                     "action": {
-                        "type": "NEXT"
+                        "type": "EXECUTOR",
+                        "name": ["EmailOTPVerifier"]
                     },
                     "next": [
                         "flow-node-3"
@@ -55,7 +57,7 @@
                     "id": "flow-action-google-sign-up-Rt8uJ6D3",
                     "action": {
                         "type": "EXECUTOR",
-                        "name": "GoogleSignUp"
+                        "name": ["GoogleSignUp"]
                     },
                     "next": [
                         "flow-node-5"
@@ -74,8 +76,10 @@
                 {
                     "id": "flow-action-next-ggh688op",
                     "action": {
-                        "type": "EXECUTOR",
-                        "name": "PasswordOnboarder"
+                        "type": "NEXT",
+                        "meta": {
+                            "actionType": "CREDENTIAL_ONBOARDING"
+                        }
                     },
                     "next": [
                         "flow-node-5"
@@ -103,8 +107,10 @@
                 {
                     "id": "flow-action-next-tyG3hp31",
                     "action": {
-                        "type": "EXECUTOR",
-                        "name": "EmailOTPVerifier"
+                        "type": "NEXT",
+                        "meta": {
+                            "actionType": "ATTRIBUTE_COLLECTION"
+                        }
                     },
                     "next": [
                         "flow-node-4"
@@ -162,12 +168,16 @@
                 {
                     "id": "flow-action-done-5t8uJ6D3",
                     "action": {
-                        "type": "DONE"
-                    }
+                        "type": "SUBMIT"
+                    },
+                    "next": [
+                        "COMPLETE"
+                    ]
                 }
             ]
         }
     ],
+
     "blocks": [
         {
             "id": "flow-block-attributes-g55dfGuK",
