@@ -1,0 +1,26 @@
+RegistrationFlow: First Node
+
+Node: 
+    id
+    type
+    executorID (if type == task)
+    nextNodeID
+    nextNodeIDList ( if type == decision)
+
+
+Decision Node: (required)
+    * display the options
+
+Decision Node: (input)
+    decision
+
+Task Node: (required)
+    * display data required for the first iteration
+    * display data required for the  next iteration if there are any.
+
+Task Node: (input)
+    * attributes
+    * OTP   
+    * credential
+
+
