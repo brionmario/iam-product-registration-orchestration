@@ -80,6 +80,10 @@
             "category": "ACTION",
             "type": "BUTTON",
             "variant": "PRIMARY",
+            "action": {
+                "type": "EXECUTOR",
+                "name": "PasswordOnboarder"
+            },
             "properties": {
                 "type": "submit",
                 "className": "wso2is-button",
@@ -107,6 +111,10 @@
             "type": "BUTTON",
             "deprecated": false,
             "variant": "PRIMARY",
+            "action": {
+                "type": "EXECUTOR",
+                "name": "EmailOTPVerifier"
+            },
             "properties": {
                 "action": "EmailOTPVerifier",
                 "type": "submit",
@@ -134,8 +142,11 @@
             "type": "BUTTON",
             "deprecated": false,
             "variant": "SOCIAL_BUTTON",
+            "action": {
+                "type": "EXECUTOR",
+                "name": "GoogleSignUp"
+            },
             "properties": {
-                "action": "GoogleSignUp",
                 "type": "button",
                 "className": "wso2is-social-button",
                 "text": "sign.up.form.button.continue.with.google",

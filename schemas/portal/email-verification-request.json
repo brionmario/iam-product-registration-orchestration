@@ -1,0 +1,7 @@
+{
+    "flowId": "d13ec8d2-2d1e-11ee-be56-0242ac120002",
+    "action": "NEXT",
+    "inputs": {
+        "email": "johndoe@acme.com"
+    }
+}
