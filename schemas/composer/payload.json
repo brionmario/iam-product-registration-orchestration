@@ -248,9 +248,7 @@
                     "className": "wso2is-typography h3",
                     "text": "Register Account"
                 },
-                "styles": {
-                    "textAlign": "center"
-                }
+                "styles": {}
             }
         },
         {
@@ -267,11 +265,7 @@
                     "hint": "",
                     "label": "Username",
                     "required": true,
-                    "multiline": false,
-                    "placeholder": "Enter your username",
-                    "defaultValue": "",
-                    "minLength": 3,
-                    "maxLength": 50
+                    "placeholder": "Enter your username"
                 },
                 "styles": {}
             }
@@ -290,11 +284,7 @@
                     "hint": "",
                     "label": "First Name",
                     "required": true,
-                    "multiline": false,
-                    "placeholder": "Enter your first name",
-                    "defaultValue": "",
-                    "minLength": 3,
-                    "maxLength": 50
+                    "placeholder": "Enter your first name"
                 },
                 "styles": {}
             }
@@ -313,11 +303,7 @@
                     "hint": "",
                     "label": "Last Name",
                     "required": true,
-                    "multiline": false,
-                    "placeholder": "Enter your last name",
-                    "defaultValue": "",
-                    "minLength": 3,
-                    "maxLength": 50
+                    "placeholder": "Enter your last name"
                 },
                 "styles": {}
             }
@@ -336,9 +322,7 @@
                     "hint": "",
                     "label": "Birth Date",
                     "required": false,
-                    "multiline": false,
-                    "placeholder": "Enter your birth date",
-                    "defaultValue": ""
+                    "placeholder": "Enter your birth date"
                 },
                 "styles": {}
             }
@@ -352,12 +336,10 @@
             "config": {
                 "field": {
                     "type": "submit",
-                    "className": "wso2is-button",
+                    "className": "wso2is-button primary",
                     "text": "Continue with Password"
                 },
-                "styles": {
-                    "width": "100%"
-                }
+                "styles": {}
             }
         },
         {
@@ -368,7 +350,7 @@
             "variant": "HORIZONTAL",
             "config": {
                 "field": {
-                    "className": "wso2is-divider-horizontal",
+                    "className": "wso2is-divider horizontal",
                     "text": "Or"
                 },
                 "styles": {}
@@ -383,14 +365,11 @@
             "variant": "PRIMARY",
             "config": {
                 "field": {
-                    "action": "EmailOTPVerifier",
                     "type": "submit",
-                    "className": "wso2is-button",
+                    "className": "wso2is-button primary",
                     "label": "Continue with Email OTP"
                 },
-                "styles": {
-                    "width": "100%"
-                }
+                "styles": {}
             }
         },
         {
@@ -401,7 +380,7 @@
             "variant": "HORIZONTAL",
             "config": {
                 "field": {
-                    "className": "wso2is-divider-horizontal",
+                    "className": "wso2is-divider horizontal",
                     "text": "Or"
                 },
                 "styles": {}
@@ -413,17 +392,14 @@
             "type": "BUTTON",
             "version": "0.1.0",
             "deprecated": false,
-            "variant": "SOCIAL_BUTTON",
+            "variant": "SOCIAL",
             "config": {
                 "field": {
-                    "action": "GoogleSignUp",
                     "type": "button",
-                    "className": "wso2is-social-button",
+                    "className": "wso2is-button social",
                     "label": "Continue with Google Sign Up"
                 },
-                "styles": {
-                    "width": "100%"
-                }
+                "styles": {}
             }
         },
         {
@@ -437,9 +413,7 @@
                     "className": "wso2is-typography h3",
                     "text": "Enter Password"
                 },
-                "styles": {
-                    "textAlign": "center"
-                }
+                "styles": {}
             }
         },
         {
@@ -456,9 +430,7 @@
                     "hint": "",
                     "label": "Password",
                     "required": true,
-                    "multiline": false,
-                    "placeholder": "Enter your password",
-                    "defaultValue": ""
+                    "placeholder": "Enter your password"
                 },
                 "styles": {}
             }
@@ -477,9 +449,7 @@
                     "hint": "",
                     "label": "Confirm Password",
                     "required": true,
-                    "multiline": false,
-                    "placeholder": "Re-enter your password",
-                    "defaultValue": ""
+                    "placeholder": "Re-enter your password"
                 },
                 "styles": {}
             }
@@ -496,9 +466,7 @@
                     "className": "wso2is-button",
                     "text": "Next"
                 },
-                "styles": {
-                    "width": "100%"
-                }
+                "styles": {}
             }
         },
         {
@@ -512,9 +480,7 @@
                     "className": "wso2is-typography h3",
                     "text": "Enter Email"
                 },
-                "styles": {
-                    "textAlign": "center"
-                }
+                "styles": {}
             }
         },
         {
@@ -531,9 +497,7 @@
                     "hint": "",
                     "label": "Email",
                     "required": true,
-                    "multiline": false,
-                    "placeholder": "Enter your email address",
-                    "defaultValue": ""
+                    "placeholder": "Enter your email address"
                 },
                 "styles": {}
             }
@@ -550,9 +514,7 @@
                     "className": "wso2is-button",
                     "text": "Continue"
                 },
-                "styles": {
-                    "width": "100%"
-                }
+                "styles": {}
             }
         },
         {
@@ -567,9 +529,7 @@
                     "className": "wso2is-button",
                     "text": "Go back"
                 },
-                "styles": {
-                    "width": "100%"
-                }
+                "styles": {}
             }
         },
         {
@@ -583,9 +543,7 @@
                     "className": "wso2is-typography h3",
                     "text": "OTP Verification"
                 },
-                "styles": {
-                    "textAlign": "center"
-                }
+                "styles": {}
             }
         },
         {
@@ -602,9 +560,7 @@
                     "hint": "",
                     "label": "OTP",
                     "required": true,
-                    "multiline": false,
-                    "placeholder": "Enter the OTP",
-                    "defaultValue": ""
+                    "placeholder": "Enter the OTP"
                 },
                 "styles": {}
             }
@@ -621,9 +577,7 @@
                     "className": "wso2is-button",
                     "text": "Continue"
                 },
-                "styles": {
-                    "width": "100%"
-                }
+                "styles": {}
             }
         },
         {
@@ -638,9 +592,7 @@
                     "className": "wso2is-button",
                     "text": "Go back"
                 },
-                "styles": {
-                    "width": "100%"
-                }
+                "styles": {}
             }
         },
         {
@@ -654,9 +606,7 @@
                     "className": "wso2is-typography h3",
                     "text": "Enter Personal Details"
                 },
-                "styles": {
-                    "textAlign": "center"
-                }
+                "styles": {}
             }
         },
         {
@@ -673,9 +623,7 @@
                     "hint": "",
                     "label": "NIC",
                     "required": true,
-                    "multiline": false,
-                    "placeholder": "Enter your national identity card number",
-                    "defaultValue": ""
+                    "placeholder": "Enter your national identity card number"
                 },
                 "styles": {}
             }
@@ -693,9 +641,7 @@
                     "className": "wso2is-button",
                     "label": "Done"
                 },
-                "styles": {
-                    "width": "100%"
-                }
+                "styles": {}
             }
         }
     ]

@@ -16,11 +16,7 @@
                 "hint": "",
                 "label": "Text",
                 "required": false,
-                "multiline": false,
-                "placeholder": "Enter your text",
-                "defaultValue": "",
-                "minLength": 3,
-                "maxLength": 50
+                "placeholder": "Enter your text"
             },
             "styles": {}
         }
@@ -42,9 +38,7 @@
                 "hint": "",
                 "label": "Password",
                 "required": false,
-                "multiline": false,
-                "placeholder": "Enter your password",
-                "defaultValue": ""
+                "placeholder": "Enter your password"
             },
             "styles": {}
         }
@@ -66,9 +60,7 @@
                 "hint": "",
                 "label": "Email",
                 "required": false,
-                "multiline": false,
-                "placeholder": "Enter your email address",
-                "defaultValue": ""
+                "placeholder": "Enter your email address"
             },
             "styles": {}
         }
@@ -90,9 +82,7 @@
                 "hint": "",
                 "label": "Phone",
                 "required": false,
-                "multiline": false,
-                "placeholder": "Enter your phone number",
-                "defaultValue": ""
+                "placeholder": "Enter your phone number"
             },
             "styles": {}
         }
@@ -114,9 +104,7 @@
                 "hint": "",
                 "label": "Number",
                 "required": false,
-                "multiline": false,
-                "placeholder": "Enter a number",
-                "defaultValue": ""
+                "placeholder": "Enter a number"
             },
             "styles": {}
         }
@@ -138,9 +126,7 @@
                 "hint": "",
                 "label": "Date",
                 "required": false,
-                "multiline": false,
-                "placeholder": "Enter a date",
-                "defaultValue": ""
+                "placeholder": "Enter a date"
             },
             "styles": {}
         }
@@ -160,8 +146,7 @@
                 "className": "wso2is-input checkbox",
                 "hint": "",
                 "label": "Checkbox",
-                "required": false,
-                "defaultValue": ""
+                "required": false
             },
             "styles": {}
         }
@@ -230,9 +215,7 @@
                         "className": "wso2is-button primary",
                         "text": "Primary Button"
                     },
-                    "styles": {
-                        "width": "100%"
-                    }
+                    "styles": {}
                 }
             },
             {
@@ -251,9 +234,7 @@
                         "className": "wso2is-button secondary",
                         "text": "Secondary Button"
                     },
-                    "styles": {
-                        "width": "100%"
-                    }
+                    "styles": {}
                 }
             },
             {
@@ -272,9 +253,26 @@
                         "className": "wso2is-button text",
                         "text": "Text Button"
                     },
-                    "styles": {
-                        "width": "100%"
-                    }
+                    "styles": {}
+                }
+            },
+            {
+                "category": "ACTION",
+                "type": "BUTTON",
+                "version": "0.1.0",
+                "variant": "SOCIAL",
+                "deprecated": false,
+                "display": {
+                    "label": "Social",
+                    "image": null
+                },
+                "config": {
+                    "field": {
+                        "type": "button",
+                        "className": "wso2is-button social",
+                        "text": "Social Button"
+                    },
+                    "styles": {}
                 }
             }
         ]
@@ -305,9 +303,7 @@
                         "className": "wso2is-typography h1",
                         "text": "Heading - H1"
                     },
-                    "styles": {
-                        "textAlign": "center"
-                    }
+                    "styles": {}
                 }
             },
             {
@@ -325,9 +321,7 @@
                         "className": "wso2is-typography h2",
                         "text": "Heading - H2"
                     },
-                    "styles": {
-                        "textAlign": "center"
-                    }
+                    "styles": {}
                 }
             },
             {
@@ -345,9 +339,7 @@
                         "className": "wso2is-typography h3",
                         "text": "Heading - H3"
                     },
-                    "styles": {
-                        "textAlign": "center"
-                    }
+                    "styles": {}
                 }
             },
             {
@@ -365,9 +357,7 @@
                         "className": "wso2is-typography h4",
                         "text": "Heading - H4"
                     },
-                    "styles": {
-                        "textAlign": "center"
-                    }
+                    "styles": {}
                 }
             },
             {
@@ -385,9 +375,7 @@
                         "className": "wso2is-typography h5",
                         "text": "Heading - H5"
                     },
-                    "styles": {
-                        "textAlign": "center"
-                    }
+                    "styles": {}
                 }
             },
             {
@@ -405,9 +393,7 @@
                         "className": "wso2is-typography h6",
                         "text": "Heading - H6"
                     },
-                    "styles": {
-                        "textAlign": "center"
-                    }
+                    "styles": {}
                 }
             },
             {
@@ -425,11 +411,7 @@
                         "className": "wso2is-typography body1",
                         "text": "Body Text"
                     },
-                    "styles": {
-                        "fontSize": "14px",
-                        "fontWeight": "400",
-                        "textAlign": "center"
-                    }
+                    "styles": {}
                 }
             },
             {
@@ -447,11 +429,7 @@
                         "className": "wso2is-typography body2",
                         "text": "Body Text - Muted"
                     },
-                    "styles": {
-                        "fontSize": "12px",
-                        "fontWeight": "400",
-                        "textAlign": "center"
-                    }
+                    "styles": {}
                 }
             }
         ]
@@ -470,9 +448,7 @@
                 "className": "wso2is-rich-text",
                 "text": "<h3 class=\"ui header\">Rich Text</h3>"
             },
-            "styles": {
-                "textAlign": "center"
-            }
+            "styles": {}
         }
     },
     {
@@ -550,10 +526,7 @@
                         "src": "https://www.svgrepo.com/show/508699/landscape-placeholder.svg",
                         "className": "wso2is-image image-block"
                     },
-                    "styles": {
-                        "width": "inherit",
-                        "height": "40px"
-                    }
+                    "styles": {}
                 }
             }
         ]
