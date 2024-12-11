@@ -34,30 +34,45 @@
             ],
             "actions": [
                 {
-                    "id": "flow-action-password-onboarder-p563u9Yn",
+                    "id": "flow-action-ty203491",
                     "action": {
                         "type": "EXECUTOR",
-                        "name": ["PasswordOnboarder"]
+                        "executors": [
+                            {
+                                "id": "flow-action-password-onboarder-p563u9Yn",
+                                "name": "PasswordOnboarder"
+                            }
+                        ]
                     },
                     "next": [
                         "flow-node-2"
                     ]
                 },
                 {
-                    "id": "flow-action-email-otp-verifier-5t8uJ6D3",
+                    "id": "flow-action-394ksdj3",
                     "action": {
                         "type": "EXECUTOR",
-                        "name": ["EmailOTPVerifier"]
+                        "executors": [
+                            {
+                                "id": "flow-action-email-otp-verifier-5t8uJ6D3",
+                                "name": "EmailOTPVerifier"
+                            }
+                        ]
                     },
                     "next": [
                         "flow-node-3"
                     ]
                 },
                 {
-                    "id": "flow-action-google-sign-up-Rt8uJ6D3",
+                    "id": "flow-action-WeP34234",
                     "action": {
                         "type": "EXECUTOR",
-                        "name": ["GoogleSignUp"]
+                        "executors": [
+                            {
+                                "id": "flow-action-google-sign-up-Rt8uJ6D3",
+                                "name": "GoogleSignUp"
+                            }
+                        ]
                     },
                     "next": [
                         "flow-node-5"
@@ -168,7 +183,7 @@
                 {
                     "id": "flow-action-done-5t8uJ6D3",
                     "action": {
-                        "type": "SUBMIT"
+                        "type": "NEXT"
                     },
                     "next": [
                         "COMPLETE"
@@ -177,7 +192,6 @@
             ]
         }
     ],
-
     "blocks": [
         {
             "id": "flow-block-attributes-g55dfGuK",
