@@ -10,17 +10,36 @@
             "variant": "H3",
             "properties": {
                 "className": "wso2is-typography-h3",
-                "text": "sign.up.form.email.title",
+                "text": "sign.up.form.email.otp.title",
                 "styles": {
                     "textAlign": "center"
                 }
             }
         },
         {
+            "id": "flow-field-otp-mn44gh0j",
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "OTP",
+            "config": {
+                "userEmail": "nipunib@wso2.com"
+            },
+            "properties": {
+                "type": "text",
+                "label": "sign.up.form.fields.emailotp.label",
+                "name": "emailOTP",
+                "dataType": "string",
+                "isMandatory": true,
+                "isReadOnly": false,
+                "validationRegex": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+            },
+            "styles": {}
+        },
+        {
             "id": "flow-field-email-Rt8uJ6D3",
             "category": "FIELD",
             "type": "INPUT",
-            "variant": "TEXT",
+            "variant": "EMAIL",
             "properties": {
                 "type": "email",
                 "label": "sign.up.form.fields.email.label",
@@ -44,14 +63,14 @@
                 "type": "NAVIGATOR",
                 "executors": [
                     {
-                        "name": "EmailOTPVerifier2"
+                        "name": "EmailOTPVerifier3"
                     }
                 ]
             },
             "properties": {
                 "type": "submit",
                 "className": "wso2is-button",
-                "text": "sign.up.form.button.continue",
+                "text": "sign.up.form.button.submit",
                 "action": "submit",
                 "styles": {
                     "width": "100%"
@@ -63,7 +82,7 @@
         {
             "id": "flow-block-attributes-g55dfGuKl",
             "nodes": [
-                "flow-field-email-Rt8uJ6D3",
+                "flow-field-otp-mn44gh0j",
                 "flow-action-verify-otp-ssd5g6h"
             ]
         }

@@ -28,11 +28,15 @@
                 "hint": "",
                 "placeholder": "sign.up.form.fields.username.placeholder",
                 "name": "username",
-                "value": "",
                 "dataType": "string",
-                "isRequired": true,
-                "isReadOnly": false,
-                "validationRegex": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+                "required": true,
+                "readOnly": false,
+                "validation": [
+                    {
+                        "type": "REQUIRED",
+                        "error": "This field is required."
+                    }
+                ]
             }
         },
         {
@@ -66,7 +70,7 @@
                 "className": "wso2is-text-input",
                 "hint": "",
                 "label": "sign.up.form.fields.lastName.label",
-                "required": true,
+                "required": false,
                 "multiline": false,
                 "placeholder": "sign.up.form.fields.lastName.placeholder",
                 "defaultValue": "",
@@ -82,7 +86,11 @@
             "variant": "PRIMARY",
             "action": {
                 "type": "EXECUTOR",
-                "name": "PasswordOnboarder"
+                "executors": [
+                    {
+                        "name": "PasswordOnboarder"
+                    }
+                ]
             },
             "properties": {
                 "type": "submit",
@@ -113,10 +121,13 @@
             "variant": "PRIMARY",
             "action": {
                 "type": "EXECUTOR",
-                "name": "EmailOTPVerifier"
+                "executors": [
+                    {
+                        "name": "EmailOTPVerifier1"
+                    }
+                ]
             },
             "properties": {
-                "action": "EmailOTPVerifier",
                 "type": "submit",
                 "className": "wso2is-button",
                 "text": "sign.up.form.button.continue.with.email.otp",
@@ -144,7 +155,14 @@
             "variant": "SOCIAL_BUTTON",
             "action": {
                 "type": "EXECUTOR",
-                "name": "GoogleSignUp"
+                "executors": [
+                    {
+                        "name": "GoogleOIDCAuthenticator",
+                        "meta": {
+                            "idp": "Google"
+                        }
+                    }
+                ]
             },
             "properties": {
                 "type": "button",
