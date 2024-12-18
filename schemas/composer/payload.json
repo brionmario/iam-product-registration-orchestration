@@ -196,7 +196,6 @@
         {
             "id": "flow-block-attributes-g55dfGuK",
             "elements": [
-                "flow-field-email-Rt8uJ6D3",
                 "flow-field-username-F6D3t8uJ",
                 "flow-field-first-name-r7u4F1GG",
                 "flow-field-last-name-r7u4F1GG",
@@ -615,7 +614,7 @@
             "config": {
                 "field": {
                     "type": "text",
-                    "name": "email-otp",
+                    "name": "otp",
                     "hint": "",
                     "label": "OTP",
                     "required": true,
