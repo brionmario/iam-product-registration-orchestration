@@ -258,7 +258,7 @@
             "config": {
                 "field": {
                     "type": "text",
-                    "name": "username",
+                    "name": "http://wso2.org/claims/username",
                     "hint": "",
                     "label": "Username",
                     "required": true,
@@ -311,9 +311,9 @@
                     "type": "date",
                     "name": "http://wso2.org/claims/dob",
                     "hint": "",
-                    "label": "Birth Date",
+                    "label": "Date of Birth",
                     "required": false,
-                    "placeholder": "Enter your birth date"
+                    "placeholder": "Enter your date of birth"
                 }
             }
         },
@@ -352,7 +352,7 @@
             "config": {
                 "field": {
                     "type": "submit",
-                    "label": "Continue with Email OTP"
+                    "text": "Continue with Email OTP"
                 }
             }
         },
@@ -378,7 +378,7 @@
             "config": {
                 "field": {
                     "type": "button",
-                    "label": "Continue with Google Sign Up"
+                    "text": "Continue with Google Sign Up"
                 }
             }
         },
@@ -560,7 +560,7 @@
             "config": {
                 "field": {
                     "type": "email",
-                    "name": "email",
+                    "name": "http://wso2.org/claims/emailaddress",
                     "hint": "",
                     "label": "Email",
                     "required": true,
@@ -615,7 +615,7 @@
             "config": {
                 "field": {
                     "type": "text",
-                    "name": "otp",
+                    "name": "email-otp",
                     "hint": "",
                     "label": "OTP",
                     "required": true,
@@ -670,7 +670,7 @@
             "config": {
                 "field": {
                     "type": "text",
-                    "name": "nic",
+                    "name": "http://wso2.org/claims/im",
                     "hint": "",
                     "label": "NIC",
                     "required": true,
@@ -688,7 +688,7 @@
             "config": {
                 "field": {
                     "type": "submit",
-                    "label": "Done"
+                    "text": "Done"
                 }
             }
         }
