@@ -31,6 +31,7 @@
         },
         "config": {
             "field": {
+                "name": "password",
                 "type": "password",
                 "hint": "",
                 "label": "Password",
@@ -133,6 +134,7 @@
             "field": {
                 "type": "text",
                 "hint": "",
+                "name": "otp",
                 "label": "OTP",
                 "required": false,
                 "placeholder": ""
@@ -159,7 +161,7 @@
     },
     {
         "category": "FIELD",
-        "type": "CHOICE",
+        "type": "INPUT",
         "version": "0.1.0",
         "deprecated": false,
         "display": {
