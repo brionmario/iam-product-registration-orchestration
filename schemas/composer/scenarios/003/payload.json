@@ -1,0 +1,285 @@
+{
+    "blocks": [
+        {
+            "elements": [
+                "dnd-element_99e35fbb-f1b4-4697-9bae-0fe5895fd955",
+                "dnd-element_3933460e-a69e-4e0b-acc9-e4848a814aa9",
+                "dnd-element_aac6d0a8-b78d-4349-bee1-6b3cbc07d367"
+            ],
+            "id": "flow-block-823b0a74-f8b1-47b5-b74d-8f53448189a1"
+        },
+        {
+            "elements": [
+                "dnd-element_8e97232a-1ca3-4a03-b070-efb2017fc7f8",
+                "dnd-element_dcae3234-9288-42f6-9e43-1d753207d105"
+            ],
+            "id": "flow-block-0d346203-6c31-4bc8-b047-b9fadf6ab512"
+        },
+        {
+            "elements": [
+                "dnd-element_ac0607ef-7e34-47a0-a1c2-5c60808eb30a",
+                "dnd-element_ddc2aa80-472a-48e6-aaca-dbd8cc4dba00"
+            ],
+            "id": "flow-block-b1e6c799-28b8-426a-9558-a87e5e315563"
+        }
+    ],
+    "elements": [
+        {
+            "category": "DISPLAY",
+            "type": "TYPOGRAPHY",
+            "id": "dnd-element_95a2bd79-2455-4ce0-b5a2-7762a6918021",
+            "variant": "H3",
+            "config": {
+                "field": {
+                    "text": "Register Account"
+                }
+            }
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "TEXT",
+            "config": {
+                "field": {
+                    "type": "text",
+                    "hint": "",
+                    "label": "Username",
+                    "required": true,
+                    "placeholder": "Enter your username"
+                }
+            },
+            "id": "dnd-element_99e35fbb-f1b4-4697-9bae-0fe5895fd955"
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "PASSWORD",
+            "config": {
+                "field": {
+                    "name": "password",
+                    "type": "password",
+                    "hint": "",
+                    "label": "Password",
+                    "required": true,
+                    "placeholder": "Enter your password"
+                }
+            },
+            "id": "dnd-element_3933460e-a69e-4e0b-acc9-e4848a814aa9"
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_aac6d0a8-b78d-4349-bee1-6b3cbc07d367",
+            "variant": "PRIMARY",
+            "config": {
+                "field": {
+                    "type": "submit",
+                    "text": "Continue"
+                }
+            }
+        },
+        {
+            "category": "DISPLAY",
+            "type": "TYPOGRAPHY",
+            "id": "dnd-element_e22d0eaf-8185-43af-b4cc-ad2790730242",
+            "variant": "H3",
+            "config": {
+                "field": {
+                    "text": "Enter Email"
+                }
+            }
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "EMAIL",
+            "config": {
+                "field": {
+                    "type": "email",
+                    "hint": "",
+                    "label": "Email",
+                    "required": true,
+                    "placeholder": "Enter your email address"
+                }
+            },
+            "id": "dnd-element_8e97232a-1ca3-4a03-b070-efb2017fc7f8"
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_dcae3234-9288-42f6-9e43-1d753207d105",
+            "variant": "PRIMARY",
+            "config": {
+                "field": {
+                    "type": "submit",
+                    "text": "Continue"
+                }
+            }
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_ba9c8d34-f22a-457a-bfcc-176d5965bdef",
+            "variant": "SECONDARY",
+            "config": {
+                "field": {
+                    "type": "button",
+                    "text": "Go back"
+                }
+            }
+        },
+        {
+            "category": "DISPLAY",
+            "type": "TYPOGRAPHY",
+            "id": "dnd-element_1be1c30b-4f3f-4b2b-a12f-fb3dfe67ec1e",
+            "variant": "H3",
+            "config": {
+                "field": {
+                    "text": "OTP Verification"
+                }
+            }
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "OTP",
+            "config": {
+                "field": {
+                    "type": "text",
+                    "hint": "",
+                    "name": "otp",
+                    "label": "Enter the code sent to your email",
+                    "required": true,
+                    "placeholder": ""
+                }
+            },
+            "id": "dnd-element_ac0607ef-7e34-47a0-a1c2-5c60808eb30a"
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_ddc2aa80-472a-48e6-aaca-dbd8cc4dba00",
+            "variant": "PRIMARY",
+            "config": {
+                "field": {
+                    "type": "submit",
+                    "text": "Done"
+                }
+            }
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_7c1d9ec7-7d0a-4cf8-ab17-ff282b6a75a4",
+            "variant": "SECONDARY",
+            "config": {
+                "field": {
+                    "type": "button",
+                    "text": "Go back"
+                }
+            }
+        }
+    ],
+    "flow": {
+        "pages": [
+            {
+                "id": "flow-page-5d609f62-96e6-4c8b-84de-528f74065720",
+                "nodes": [
+                    "dnd-node_eb9fdbd8-806f-4ee5-958f-598df8189eea"
+                ]
+            },
+            {
+                "id": "flow-page-5d609f62-96e6-4c8b-84de-528f740657201",
+                "nodes": [
+                    "dnd-node_e4974d66-80fd-4244-8d55-039efec71698"
+                ]
+            },
+            {
+                "id": "flow-page-5d609f62-96e6-4c8b-84de-528f7406572011",
+                "nodes": [
+                    "dnd-node_821ea9f5-550f-4ef5-9d4e-1ffddd872f4f"
+                ]
+            }
+        ]
+    },
+    "nodes": [
+        {
+            "actions": [
+                {
+                    "action": {
+                        "executors": [
+                            {
+                                "name": "EmailOTPVerifier"
+                            }
+                        ],
+                        "type": "EXECUTOR"
+                    },
+                    "id": "dnd-element_aac6d0a8-b78d-4349-bee1-6b3cbc07d367",
+                    "next": [
+                        "dnd-node_e4974d66-80fd-4244-8d55-039efec71698"
+                    ]
+                }
+            ],
+            "elements": [
+                "dnd-element_95a2bd79-2455-4ce0-b5a2-7762a6918021",
+                "flow-block-823b0a74-f8b1-47b5-b74d-8f53448189a1"
+            ],
+            "id": "dnd-node_eb9fdbd8-806f-4ee5-958f-598df8189eea"
+        },
+        {
+            "actions": [
+                {
+                    "action": {
+                        "type": "NEXT"
+                    },
+                    "id": "dnd-element_dcae3234-9288-42f6-9e43-1d753207d105",
+                    "next": [
+                        "dnd-node_821ea9f5-550f-4ef5-9d4e-1ffddd872f4f"
+                    ]
+                },
+                {
+                    "action": {
+                        "type": "PREVIOUS"
+                    },
+                    "id": "dnd-element_ba9c8d34-f22a-457a-bfcc-176d5965bdef",
+                    "previous": []
+                }
+            ],
+            "elements": [
+                "dnd-element_e22d0eaf-8185-43af-b4cc-ad2790730242",
+                "flow-block-0d346203-6c31-4bc8-b047-b9fadf6ab512",
+                "dnd-element_ba9c8d34-f22a-457a-bfcc-176d5965bdef"
+            ],
+            "id": "dnd-node_e4974d66-80fd-4244-8d55-039efec71698"
+        },
+        {
+            "actions": [
+                {
+                    "action": {
+                        "meta": {
+                            "actionType": "VERIFICATION"
+                        },
+                        "type": "NEXT"
+                    },
+                    "id": "dnd-element_ddc2aa80-472a-48e6-aaca-dbd8cc4dba00",
+                    "next": [
+                        "COMPLETE"
+                    ]
+                },
+                {
+                    "action": {
+                        "type": "PREVIOUS"
+                    },
+                    "id": "dnd-element_7c1d9ec7-7d0a-4cf8-ab17-ff282b6a75a4",
+                    "previous": []
+                }
+            ],
+            "elements": [
+                "dnd-element_1be1c30b-4f3f-4b2b-a12f-fb3dfe67ec1e",
+                "flow-block-b1e6c799-28b8-426a-9558-a87e5e315563",
+                "dnd-element_7c1d9ec7-7d0a-4cf8-ab17-ff282b6a75a4"
+            ],
+            "id": "dnd-node_821ea9f5-550f-4ef5-9d4e-1ffddd872f4f"
+        }
+    ]
+}
