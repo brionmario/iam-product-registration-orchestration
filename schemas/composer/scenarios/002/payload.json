@@ -1,0 +1,524 @@
+{
+    "blocks": [
+        {
+            "elements": [
+                "dnd-element_ea8cb552-5c37-4bc0-8a32-ab87eb0d465f",
+                "dnd-element_2c1d4f2e-05b4-4840-9c89-15a1c51495c7",
+                "dnd-element_edf13e93-8514-4c83-973e-72d5df7148e8",
+                "dnd-element_70854717-12b4-45db-8f07-9d6e5f160fa2",
+                "dnd-element_d46101b0-a6af-45f2-ac8e-8de41c373ee3",
+                "dnd-element_aa9c7d55-416c-4348-8a19-b180b2bda5df",
+                "dnd-element_4eb5415a-04f3-4b03-8aac-8bc606d08bda",
+                "dnd-element_22d5f386-025b-4353-8925-ff1559360d49"
+            ],
+            "id": "flow-block-a8e32f01-184f-4f75-af50-8dfbaa4cea18"
+        },
+        {
+            "elements": [
+                "dnd-element_47d411a8-209b-4c30-b41a-153b1e831c52",
+                "dnd-element_cf9682b1-652a-4c69-8bc6-41d34286444c",
+                "dnd-element_d089d715-f485-45e4-a0dc-75fbb6e6d9a3"
+            ],
+            "id": "flow-block-1b3dc949-b47d-47bf-8c2a-6baadc559cd3"
+        },
+        {
+            "elements": [
+                "dnd-element_a19e81bd-3780-425f-b3aa-45e61f504e53",
+                "dnd-element_e37f62f0-5aab-4faa-ac06-be2009ef0cb3"
+            ],
+            "id": "flow-block-c24d8fd3-e3a3-4043-946a-27c2f12bd6ed"
+        },
+        {
+            "elements": [
+                "dnd-element_949c4062-c4ea-433f-8ea2-b866be20d707",
+                "dnd-element_172bd778-cb30-4af0-b465-dc67402dccd9"
+            ],
+            "id": "flow-block-24b486a7-31e4-4802-8fea-d4e1c6523cfc"
+        }
+    ],
+    "elements": [
+        {
+            "category": "DISPLAY",
+            "type": "TYPOGRAPHY",
+            "id": "dnd-element_b851f47e-e602-4817-9cbf-80be452ed4c0",
+            "variant": "H3",
+            "config": {
+                "field": {
+                    "text": "Register Account"
+                }
+            }
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "TEXT",
+            "config": {
+                "field": {
+                    "type": "text",
+                    "hint": "",
+                    "label": "Username",
+                    "required": true,
+                    "placeholder": "Enter your username",
+                    "name": "http://wso2.org/claims/username"
+                }
+            },
+            "id": "dnd-element_ea8cb552-5c37-4bc0-8a32-ab87eb0d465f"
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "TEXT",
+            "config": {
+                "field": {
+                    "type": "text",
+                    "hint": "",
+                    "label": "First Name",
+                    "required": true,
+                    "placeholder": "Enter your first name",
+                    "name": "http://wso2.org/claims/givenname"
+                }
+            },
+            "id": "dnd-element_2c1d4f2e-05b4-4840-9c89-15a1c51495c7"
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "TEXT",
+            "config": {
+                "field": {
+                    "type": "text",
+                    "hint": "",
+                    "label": "Last Name",
+                    "required": true,
+                    "placeholder": "Enter your last name",
+                    "name": "http://wso2.org/claims/lastname"
+                }
+            },
+            "id": "dnd-element_edf13e93-8514-4c83-973e-72d5df7148e8"
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "EMAIL",
+            "config": {
+                "field": {
+                    "type": "email",
+                    "hint": "",
+                    "label": "Email",
+                    "required": true,
+                    "placeholder": "Enter your email address",
+                    "name": "http://wso2.org/claims/emailaddress"
+                }
+            },
+            "id": "dnd-element_d46101b0-a6af-45f2-ac8e-8de41c373ee3"
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "DATE",
+            "config": {
+                "field": {
+                    "type": "date",
+                    "hint": "",
+                    "label": "Birth Date",
+                    "required": false,
+                    "placeholder": "Enter your birth date",
+                    "name": "http://wso2.org/claims/dob"
+                }
+            },
+            "id": "dnd-element_70854717-12b4-45db-8f07-9d6e5f160fa2"
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_aa9c7d55-416c-4348-8a19-b180b2bda5df",
+            "variant": "PRIMARY",
+            "config": {
+                "field": {
+                    "type": "submit",
+                    "text": "Continue with Password"
+                }
+            }
+        },
+        {
+            "category": "DISPLAY",
+            "type": "DIVIDER",
+            "id": "dnd-element_4eb5415a-04f3-4b03-8aac-8bc606d08bda",
+            "variant": "HORIZONTAL",
+            "config": {
+                "field": {
+                    "text": "Or"
+                }
+            }
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_22d5f386-025b-4353-8925-ff1559360d49",
+            "variant": "PRIMARY",
+            "config": {
+                "field": {
+                    "type": "submit",
+                    "text": "Continue with Email OTP"
+                }
+            }
+        },
+        {
+            "category": "DISPLAY",
+            "type": "DIVIDER",
+            "id": "dnd-element_6f9067c9-29b4-47cd-a7fe-efb92dcd2d65",
+            "variant": "HORIZONTAL",
+            "config": {
+                "field": {
+                    "text": "Or"
+                }
+            }
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_176d12cb-42f7-4dd2-aae7-7c17decf5ef3",
+            "variant": "SOCIAL",
+            "config": {
+                "field": {
+                    "type": "button",
+                    "text": "Continue with Google"
+                }
+            }
+        },
+        {
+            "category": "DISPLAY",
+            "type": "TYPOGRAPHY",
+            "id": "dnd-element_e641c5df-e684-4e9d-8f0d-10f96d36ed54",
+            "variant": "H3",
+            "config": {
+                "field": {
+                    "text": "Enter Password"
+                }
+            }
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "PASSWORD",
+            "config": {
+                "field": {
+                    "name": "password",
+                    "type": "password",
+                    "hint": "",
+                    "label": "Password",
+                    "required": true,
+                    "placeholder": "Enter your password"
+                }
+            },
+            "id": "dnd-element_47d411a8-209b-4c30-b41a-153b1e831c52"
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "PASSWORD",
+            "config": {
+                "field": {
+                    "name": "password",
+                    "type": "password",
+                    "hint": "",
+                    "label": "Confirm Password",
+                    "required": true,
+                    "placeholder": "Re-enter your password"
+                }
+            },
+            "id": "dnd-element_cf9682b1-652a-4c69-8bc6-41d34286444c"
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_d089d715-f485-45e4-a0dc-75fbb6e6d9a3",
+            "variant": "PRIMARY",
+            "config": {
+                "field": {
+                    "type": "submit",
+                    "text": "Continue"
+                }
+            }
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_6f962aff-ad55-4e78-9a66-e3e89dec8eed",
+            "variant": "SECONDARY",
+            "config": {
+                "field": {
+                    "type": "button",
+                    "text": "Go back"
+                }
+            }
+        },
+        {
+            "category": "DISPLAY",
+            "type": "TYPOGRAPHY",
+            "id": "dnd-element_3e77e960-f445-473b-8b74-0bbc4ef15bfa",
+            "variant": "H3",
+            "config": {
+                "field": {
+                    "text": "OTP Verification"
+                }
+            }
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "OTP",
+            "config": {
+                "field": {
+                    "type": "text",
+                    "hint": "",
+                    "name": "otp",
+                    "label": "Enter the code sent to your email",
+                    "required": false,
+                    "placeholder": ""
+                }
+            },
+            "id": "dnd-element_a19e81bd-3780-425f-b3aa-45e61f504e53"
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_e37f62f0-5aab-4faa-ac06-be2009ef0cb3",
+            "variant": "PRIMARY",
+            "config": {
+                "field": {
+                    "type": "submit",
+                    "text": "Continue"
+                }
+            }
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_d998b4c7-da16-4bb6-b47f-554e1d9d8879",
+            "variant": "SECONDARY",
+            "config": {
+                "field": {
+                    "type": "button",
+                    "text": "Go back"
+                }
+            }
+        },
+        {
+            "category": "DISPLAY",
+            "type": "TYPOGRAPHY",
+            "id": "dnd-element_d8d9b013-654b-473d-b418-f77ba76c6a7f",
+            "variant": "H3",
+            "config": {
+                "field": {
+                    "text": "Enter Personal Details"
+                }
+            }
+        },
+        {
+            "category": "FIELD",
+            "type": "INPUT",
+            "variant": "TEXT",
+            "config": {
+                "field": {
+                    "type": "text",
+                    "hint": "",
+                    "label": "NIC",
+                    "required": true,
+                    "placeholder": "Enter your nic",
+                    "name": "http://wso2.org/claims/im"
+                }
+            },
+            "id": "dnd-element_949c4062-c4ea-433f-8ea2-b866be20d707"
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_172bd778-cb30-4af0-b465-dc67402dccd9",
+            "variant": "PRIMARY",
+            "config": {
+                "field": {
+                    "type": "submit",
+                    "text": "Done"
+                }
+            }
+        },
+        {
+            "category": "ACTION",
+            "type": "BUTTON",
+            "id": "dnd-element_f02ede77-5ce7-4c31-85d7-9f482e70f35c",
+            "variant": "SECONDARY",
+            "config": {
+                "field": {
+                    "type": "button",
+                    "text": "Go back"
+                }
+            }
+        }
+    ],
+    "flow": {
+        "pages": [
+            {
+                "id": "flow-page-97541962-a807-4f7b-a3b6-2fa10ad9767a",
+                "nodes": [
+                    "dnd-node_9ef38076-afa2-4b17-8822-d0c8396c79f3"
+                ]
+            },
+            {
+                "id": "flow-page-97541962-a807-4f7b-a3b6-2fa10ad9767a1",
+                "nodes": [
+                    "dnd-node_77ad02e2-3f5b-4f52-b74b-fd0bd800a27c",
+                    "dnd-node_4e5909cd-076d-45d4-8b7d-1c61238221a6"
+                ]
+            },
+            {
+                "id": "flow-page-97541962-a807-4f7b-a3b6-2fa10ad9767a11",
+                "nodes": [
+                    "dnd-node_2859b3ed-5fc4-4bdf-bbf1-e25bf804879e"
+                ]
+            }
+        ]
+    },
+    "nodes": [
+        {
+            "actions": [
+                {
+                    "action": {
+                        "executors": [
+                            {
+                                "name": "PasswordOnboarder"
+                            }
+                        ],
+                        "type": "EXECUTOR"
+                    },
+                    "id": "dnd-element_aa9c7d55-416c-4348-8a19-b180b2bda5df",
+                    "next": [
+                        "dnd-node_77ad02e2-3f5b-4f52-b74b-fd0bd800a27c"
+                    ]
+                },
+                {
+                    "action": {
+                        "executors": [
+                            {
+                                "name": "EmailOTPVerifier"
+                            }
+                        ],
+                        "type": "EXECUTOR"
+                    },
+                    "id": "dnd-element_22d5f386-025b-4353-8925-ff1559360d49",
+                    "next": [
+                        "dnd-node_4e5909cd-076d-45d4-8b7d-1c61238221a6"
+                    ]
+                },
+                {
+                    "action": {
+                        "executors": [
+                            {
+                                "name": "GoogleOIDCAuthenticator",
+                                "meta": {
+                                    "idp": "Google"
+                                }
+                            }
+                        ],
+                        "type": "EXECUTOR"
+                    },
+                    "id": "dnd-element_176d12cb-42f7-4dd2-aae7-7c17decf5ef3",
+                    "next": [
+                        "dnd-node_2859b3ed-5fc4-4bdf-bbf1-e25bf804879e"
+                    ]
+                }
+            ],
+            "elements": [
+                "dnd-element_b851f47e-e602-4817-9cbf-80be452ed4c0",
+                "flow-block-a8e32f01-184f-4f75-af50-8dfbaa4cea18",
+                "dnd-element_6f9067c9-29b4-47cd-a7fe-efb92dcd2d65",
+                "dnd-element_176d12cb-42f7-4dd2-aae7-7c17decf5ef3"
+            ],
+            "id": "dnd-node_9ef38076-afa2-4b17-8822-d0c8396c79f3"
+        },
+        {
+            "actions": [
+                {
+                    "action": {
+                        "meta": {
+                            "actionType": "CREDENTIAL_ONBOARDING"
+                        },
+                        "type": "NEXT"
+                    },
+                    "id": "dnd-element_d089d715-f485-45e4-a0dc-75fbb6e6d9a3",
+                    "next": [
+                        "dnd-node_2859b3ed-5fc4-4bdf-bbf1-e25bf804879e"
+                    ]
+                },
+                {
+                    "action": {
+                        "type": "PREVIOUS"
+                    },
+                    "id": "dnd-element_6f962aff-ad55-4e78-9a66-e3e89dec8eed",
+                    "previous": []
+                }
+            ],
+            "elements": [
+                "dnd-element_e641c5df-e684-4e9d-8f0d-10f96d36ed54",
+                "flow-block-1b3dc949-b47d-47bf-8c2a-6baadc559cd3",
+                "dnd-element_6f962aff-ad55-4e78-9a66-e3e89dec8eed"
+            ],
+            "id": "dnd-node_77ad02e2-3f5b-4f52-b74b-fd0bd800a27c"
+        },
+        {
+            "actions": [
+                {
+                    "action": {
+                        "meta": {
+                            "actionType": "VERIFICATION"
+                        },
+                        "type": "NEXT"
+                    },
+                    "id": "dnd-element_e37f62f0-5aab-4faa-ac06-be2009ef0cb3",
+                    "next": [
+                        "dnd-node_2859b3ed-5fc4-4bdf-bbf1-e25bf804879e"
+                    ]
+                },
+                {
+                    "action": {
+                        "type": "PREVIOUS"
+                    },
+                    "id": "dnd-element_d998b4c7-da16-4bb6-b47f-554e1d9d8879",
+                    "previous": []
+                }
+            ],
+            "elements": [
+                "dnd-element_3e77e960-f445-473b-8b74-0bbc4ef15bfa",
+                "flow-block-c24d8fd3-e3a3-4043-946a-27c2f12bd6ed",
+                "dnd-element_d998b4c7-da16-4bb6-b47f-554e1d9d8879"
+            ],
+            "id": "dnd-node_4e5909cd-076d-45d4-8b7d-1c61238221a6"
+        },
+        {
+            "actions": [
+                {
+                    "action": {
+                        "type": "NEXT"
+                    },
+                    "id": "dnd-element_172bd778-cb30-4af0-b465-dc67402dccd9",
+                    "next": [
+                        "COMPLETE"
+                    ]
+                },
+                {
+                    "action": {
+                        "type": "PREVIOUS"
+                    },
+                    "id": "dnd-element_f02ede77-5ce7-4c31-85d7-9f482e70f35c",
+                    "previous": []
+                }
+            ],
+            "elements": [
+                "dnd-element_d8d9b013-654b-473d-b418-f77ba76c6a7f",
+                "flow-block-24b486a7-31e4-4802-8fea-d4e1c6523cfc",
+                "dnd-element_f02ede77-5ce7-4c31-85d7-9f482e70f35c"
+            ],
+            "id": "dnd-node_2859b3ed-5fc4-4bdf-bbf1-e25bf804879e"
+        }
+    ]
+}
