@@ -1,0 +1,1639 @@
+{
+    "nodes": [
+        {
+            "data": {
+                "label": "STEP node",
+                "category": "NODE",
+                "type": "STEP",
+                "version": "0.1.0",
+                "deprecated": false,
+                "display": {
+                    "label": "Prompt",
+                    "image": "https://www.svgrepo.com/show/448632/step.svg"
+                },
+                "config": {
+                    "field": {}
+                },
+                "components": [
+                    {
+                        "category": "DISPLAY",
+                        "type": "TYPOGRAPHY",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "H3",
+                            "image": null
+                        },
+                        "variants": [
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H1",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H1",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H1"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H2",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H2",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H2"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H3",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H3",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Register Account"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H4",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H4",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H4"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H5",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H5",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H5"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H6",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H6",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H6"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "BODY1",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Body1",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Body Text"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "BODY2",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Body2",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Body Text - Muted"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_aa76414a-d34a-420b-99f6-a0d94fc5f94c",
+                        "variant": "H3",
+                        "config": {
+                            "field": {
+                                "text": "Register Account"
+                            }
+                        }
+                    },
+                    {
+                        "category": "FIELD",
+                        "type": "INPUT",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "variant": "TEXT",
+                        "display": {
+                            "label": "Text Input",
+                            "image": "https://www.svgrepo.com/show/437311/textbox.svg"
+                        },
+                        "config": {
+                            "field": {
+                                "type": "text",
+                                "hint": "",
+                                "label": "Username",
+                                "required": true,
+                                "placeholder": "Enter your username",
+                                "name": "http://wso2.org/claims/username"
+                            }
+                        },
+                        "id": "dnd-element_16cd9990-0178-4215-9e2a-12e08571e599"
+                    },
+                    {
+                        "category": "FIELD",
+                        "type": "INPUT",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "variant": "TEXT",
+                        "display": {
+                            "label": "Text Input",
+                            "image": "https://www.svgrepo.com/show/437311/textbox.svg"
+                        },
+                        "config": {
+                            "field": {
+                                "type": "text",
+                                "hint": "",
+                                "label": "First Name",
+                                "required": true,
+                                "placeholder": "Enter your first name",
+                                "name": "http://wso2.org/claims/givenname"
+                            }
+                        },
+                        "id": "dnd-element_3c6a8ea9-0c46-4f0c-af05-8715a416f7c1"
+                    },
+                    {
+                        "category": "FIELD",
+                        "type": "INPUT",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "variant": "TEXT",
+                        "display": {
+                            "label": "Text Input",
+                            "image": "https://www.svgrepo.com/show/437311/textbox.svg"
+                        },
+                        "config": {
+                            "field": {
+                                "type": "text",
+                                "hint": "",
+                                "label": "Last Name",
+                                "required": true,
+                                "placeholder": "Enter your last name",
+                                "name": "http://wso2.org/claims/lastname"
+                            }
+                        },
+                        "id": "dnd-element_cfae2741-dbc8-4b2b-b186-7b66d1690d29"
+                    },
+                    {
+                        "category": "FIELD",
+                        "type": "INPUT",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "variant": "EMAIL",
+                        "display": {
+                            "label": "Email Input",
+                            "image": "https://www.svgrepo.com/show/488920/email.svg"
+                        },
+                        "config": {
+                            "field": {
+                                "type": "email",
+                                "hint": "",
+                                "label": "Email",
+                                "required": true,
+                                "placeholder": "Enter your email",
+                                "name": "http://wso2.org/claims/emailaddress"
+                            }
+                        },
+                        "id": "dnd-element_feb2d714-833a-44d2-9519-1ddbc1134626"
+                    },
+                    {
+                        "category": "FIELD",
+                        "type": "INPUT",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "variant": "DATE",
+                        "display": {
+                            "label": "Date Input",
+                            "image": "https://www.svgrepo.com/show/488144/date.svg"
+                        },
+                        "config": {
+                            "field": {
+                                "type": "date",
+                                "hint": "",
+                                "label": "Birth Date",
+                                "required": false,
+                                "placeholder": "yyyy-mm-dd"
+                            }
+                        },
+                        "id": "dnd-element_77d55560-03f9-47d2-84d7-656a10517c6f"
+                    },
+                    {
+                        "category": "ACTION",
+                        "type": "BUTTON",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "Continue with Password",
+                            "image": "https://www.svgrepo.com/show/526627/password.svg",
+                            "defaultVariant": "PRIMARY"
+                        },
+                        "variants": [
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "PRIMARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Continue with Password",
+                                    "image": "https://www.svgrepo.com/show/526627/password.svg",
+                                    "defaultVariant": "PRIMARY"
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "submit",
+                                        "text": "Continue with Password"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SECONDARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Secondary",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Secondary Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "TEXT",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Text",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Text Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SOCIAL",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Social",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Social Button"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_c7eef263-99d5-4f1d-b78a-a1e97d38bd50",
+                        "variant": "PRIMARY",
+                        "config": {
+                            "field": {
+                                "type": "submit",
+                                "text": "Continue with Password"
+                            }
+                        },
+                        "meta": {
+                            "executors": [
+                                {
+                                    "name": "PasswordOnboarder"
+                                }
+                            ],
+                            "type": "EXECUTOR"
+                        }
+                    },
+                    {
+                        "category": "DISPLAY",
+                        "type": "DIVIDER",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "Horizontal Divider",
+                            "image": null
+                        },
+                        "variants": [
+                            {
+                                "category": "DISPLAY",
+                                "type": "DIVIDER",
+                                "version": "0.1.0",
+                                "deprecated": false,
+                                "variant": "HORIZONTAL",
+                                "display": {
+                                    "label": "Horizontal Divider",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Or"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "DIVIDER",
+                                "version": "0.1.0",
+                                "deprecated": false,
+                                "variant": "VERTICAL",
+                                "display": {
+                                    "label": "Vertical Divider",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Or"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_5590d963-ab4d-4596-99d1-4928787c8d26",
+                        "variant": "HORIZONTAL",
+                        "config": {
+                            "field": {
+                                "text": "Or"
+                            }
+                        }
+                    },
+                    {
+                        "category": "ACTION",
+                        "type": "BUTTON",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "Continue with Email OTP",
+                            "image": "https://www.svgrepo.com/show/479622/email-18.svg",
+                            "defaultVariant": "PRIMARY"
+                        },
+                        "variants": [
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "PRIMARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Continue with Email OTP",
+                                    "image": "https://www.svgrepo.com/show/479622/email-18.svg",
+                                    "defaultVariant": "PRIMARY"
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "submit",
+                                        "text": "Continue with Email OTP"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SECONDARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Secondary",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Secondary Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "TEXT",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Text",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Text Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SOCIAL",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Social",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Social Button"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_f0dbc184-8d4b-4419-9f78-0982978ebd10",
+                        "variant": "PRIMARY",
+                        "config": {
+                            "field": {
+                                "type": "submit",
+                                "text": "Continue with Email OTP"
+                            }
+                        },
+                        "meta": {
+                            "executors": [
+                                {
+                                    "name": "EmailOTPVerifier"
+                                }
+                            ],
+                            "type": "EXECUTOR"
+                        }
+                    },
+                    {
+                        "category": "DISPLAY",
+                        "type": "DIVIDER",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "Horizontal Divider",
+                            "image": null
+                        },
+                        "variants": [
+                            {
+                                "category": "DISPLAY",
+                                "type": "DIVIDER",
+                                "version": "0.1.0",
+                                "deprecated": false,
+                                "variant": "HORIZONTAL",
+                                "display": {
+                                    "label": "Horizontal Divider",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Or"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "DIVIDER",
+                                "version": "0.1.0",
+                                "deprecated": false,
+                                "variant": "VERTICAL",
+                                "display": {
+                                    "label": "Vertical Divider",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Or"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_6e8f89cd-bedb-42b8-86d5-777eb8bbd57f",
+                        "variant": "HORIZONTAL",
+                        "config": {
+                            "field": {
+                                "text": "Or"
+                            }
+                        }
+                    },
+                    {
+                        "category": "ACTION",
+                        "type": "BUTTON",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "Continue with Google",
+                            "image": "https://www.svgrepo.com/show/475656/google-color.svg",
+                            "defaultVariant": "SOCIAL"
+                        },
+                        "variants": [
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "PRIMARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Continue with Google",
+                                    "image": "https://www.svgrepo.com/show/475656/google-color.svg",
+                                    "defaultVariant": "SOCIAL"
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Continue with Google"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SECONDARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Secondary",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Secondary Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "TEXT",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Text",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Text Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SOCIAL",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Continue with Google",
+                                    "image": "https://www.svgrepo.com/show/475656/google-color.svg",
+                                    "defaultVariant": "SOCIAL"
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Social Button"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_07b0a573-ceb9-4ec0-b27f-db4b07ba16b8",
+                        "variant": "SOCIAL",
+                        "config": {
+                            "field": {
+                                "type": "button",
+                                "text": "Continue with Google"
+                            }
+                        },
+                        "meta": {
+                            "executors": [
+                                {
+                                    "name": "GoogleOIDCAuthenticator",
+                                    "meta": {
+                                        "idp": "Google"
+                                    }
+                                }
+                            ],
+                            "type": "EXECUTOR"
+                        }
+                    }
+                ]
+            },
+            "id": "dnd-node_0006266e-00c4-49af-9571-cee0346abe95",
+            "position": {
+                "x": 735,
+                "y": 495
+            },
+            "type": "STEP",
+            "measured": {
+                "width": 350,
+                "height": 735
+            }
+        },
+        {
+            "data": {
+                "label": "STEP node",
+                "category": "NODE",
+                "type": "STEP",
+                "version": "0.1.0",
+                "deprecated": false,
+                "display": {
+                    "label": "Prompt",
+                    "image": "https://www.svgrepo.com/show/448632/step.svg"
+                },
+                "config": {
+                    "field": {}
+                },
+                "components": [
+                    {
+                        "category": "DISPLAY",
+                        "type": "TYPOGRAPHY",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "H3",
+                            "image": null
+                        },
+                        "variants": [
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H1",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H1",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H1"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H2",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H2",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H2"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H3",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H3",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Enter Password"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H4",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H4",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H4"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H5",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H5",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H5"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H6",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H6",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H6"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "BODY1",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Body1",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Body Text"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "BODY2",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Body2",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Body Text - Muted"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_be37d41e-eb43-4379-b4db-4eef7fa75db4",
+                        "variant": "H3",
+                        "config": {
+                            "field": {
+                                "text": "Enter Password"
+                            }
+                        }
+                    },
+                    {
+                        "category": "FIELD",
+                        "type": "INPUT",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "variant": "PASSWORD",
+                        "display": {
+                            "label": "Password Input",
+                            "image": "https://www.svgrepo.com/show/529125/password.svg"
+                        },
+                        "config": {
+                            "field": {
+                                "name": "password",
+                                "type": "password",
+                                "hint": "",
+                                "label": "Password",
+                                "required": true,
+                                "placeholder": "Enter your password"
+                            }
+                        },
+                        "id": "dnd-element_c8e4136f-6183-47e4-8a23-e16196219840"
+                    },
+                    {
+                        "category": "FIELD",
+                        "type": "INPUT",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "variant": "PASSWORD",
+                        "display": {
+                            "label": "Password Input",
+                            "image": "https://www.svgrepo.com/show/529125/password.svg"
+                        },
+                        "config": {
+                            "field": {
+                                "name": "password",
+                                "type": "password",
+                                "hint": "",
+                                "label": "Confirm Password",
+                                "required": true,
+                                "placeholder": "Re-enter your password"
+                            }
+                        },
+                        "id": "dnd-element_f076f5dd-d98c-4256-8a16-d56834480f28"
+                    },
+                    {
+                        "category": "ACTION",
+                        "type": "BUTTON",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "Next",
+                            "image": "https://www.svgrepo.com/show/305382/arrowhead-right-outline.svg",
+                            "defaultVariant": "PRIMARY"
+                        },
+                        "variants": [
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "PRIMARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Next",
+                                    "image": "https://www.svgrepo.com/show/305382/arrowhead-right-outline.svg",
+                                    "defaultVariant": "PRIMARY"
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "submit",
+                                        "text": "Continue"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SECONDARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Secondary",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Secondary Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "TEXT",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Text",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Text Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SOCIAL",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Social",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Social Button"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_16b0e168-9ce0-4b2b-9455-b9452591d12c",
+                        "variant": "PRIMARY",
+                        "config": {
+                            "field": {
+                                "type": "submit",
+                                "text": "Continue"
+                            }
+                        },
+                        "meta": {
+                            "type": "NEXT"
+                        }
+                    }
+                ]
+            },
+            "id": "dnd-node_1ee91686-d39e-4d3f-8d40-ddd2260c7ea6",
+            "position": {
+                "x": 1238.9999999999998,
+                "y": 340
+            },
+            "type": "STEP",
+            "measured": {
+                "width": 350,
+                "height": 338
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "data": {
+                "label": "STEP node",
+                "category": "NODE",
+                "type": "STEP",
+                "version": "0.1.0",
+                "deprecated": false,
+                "display": {
+                    "label": "Prompt",
+                    "image": "https://www.svgrepo.com/show/448632/step.svg"
+                },
+                "config": {
+                    "field": {}
+                },
+                "components": [
+                    {
+                        "category": "DISPLAY",
+                        "type": "TYPOGRAPHY",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "H3",
+                            "image": null
+                        },
+                        "variants": [
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H1",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H1",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H1"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H2",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H2",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H2"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H3",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H3",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "OTP Verification"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H4",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H4",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H4"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H5",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H5",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H5"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H6",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H6",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H6"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "BODY1",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Body1",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Body Text"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "BODY2",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Body2",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Body Text - Muted"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_e3571913-1dcf-4f21-9fa7-815e8e388c53",
+                        "variant": "H3",
+                        "config": {
+                            "field": {
+                                "text": "OTP Verification"
+                            }
+                        }
+                    },
+                    {
+                        "category": "FIELD",
+                        "type": "INPUT",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "variant": "OTP",
+                        "display": {
+                            "label": "OTP Input",
+                            "image": "https://www.svgrepo.com/show/381137/transaction-password-otp-verification-code-security.svg"
+                        },
+                        "config": {
+                            "field": {
+                                "type": "text",
+                                "hint": "",
+                                "name": "otp",
+                                "label": "OTP",
+                                "required": true,
+                                "placeholder": ""
+                            }
+                        },
+                        "id": "dnd-element_d5ca1096-fe2a-436b-ac51-ed65d316c0cb"
+                    },
+                    {
+                        "category": "ACTION",
+                        "type": "BUTTON",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "Primary",
+                            "image": null
+                        },
+                        "variants": [
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "PRIMARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Primary",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "submit",
+                                        "text": "Continue"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SECONDARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Secondary",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Secondary Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "TEXT",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Text",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Text Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SOCIAL",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Social",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Social Button"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_a67c20fb-5181-4aa6-b10c-4d8fbb2f805f",
+                        "variant": "PRIMARY",
+                        "config": {
+                            "field": {
+                                "type": "submit",
+                                "text": "Continue"
+                            }
+                        }
+                    }
+                ]
+            },
+            "id": "dnd-node_d6011cf4-9763-406c-9c3e-7cb36ce1af27",
+            "position": {
+                "x": 1241.9999999999998,
+                "y": 1026
+            },
+            "type": "STEP",
+            "measured": {
+                "width": 350,
+                "height": 269
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "data": {
+                "label": "STEP node",
+                "category": "NODE",
+                "type": "STEP",
+                "version": "0.1.0",
+                "deprecated": false,
+                "display": {
+                    "label": "Prompt",
+                    "image": "https://www.svgrepo.com/show/448632/step.svg"
+                },
+                "config": {
+                    "field": {}
+                },
+                "components": [
+                    {
+                        "category": "DISPLAY",
+                        "type": "TYPOGRAPHY",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "H3",
+                            "image": null
+                        },
+                        "variants": [
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H1",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H1",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H1"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H2",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H2",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H2"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H3",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H3",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Enter Personal Details"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H4",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H4",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H4"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H5",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H5",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H5"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "H6",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "H6",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Heading - H6"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "BODY1",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Body1",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Body Text"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "DISPLAY",
+                                "type": "TYPOGRAPHY",
+                                "version": "0.1.0",
+                                "variant": "BODY2",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Body2",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "text": "Body Text - Muted"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_7747beda-60fd-4028-a8de-e3b7b0822384",
+                        "variant": "H3",
+                        "config": {
+                            "field": {
+                                "text": "Enter Personal Details"
+                            }
+                        }
+                    },
+                    {
+                        "category": "FIELD",
+                        "type": "INPUT",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "variant": "TEXT",
+                        "display": {
+                            "label": "Text Input",
+                            "image": "https://www.svgrepo.com/show/437311/textbox.svg"
+                        },
+                        "config": {
+                            "field": {
+                                "type": "text",
+                                "hint": "",
+                                "label": "Text",
+                                "required": true,
+                                "placeholder": "Enter your nic",
+                                "name": "http://wso2.org/claims/nic"
+                            }
+                        },
+                        "id": "dnd-element_919d3dd6-5e93-470a-9f9f-fab54cbec058"
+                    },
+                    {
+                        "category": "ACTION",
+                        "type": "BUTTON",
+                        "version": "0.1.0",
+                        "deprecated": false,
+                        "display": {
+                            "label": "Next",
+                            "image": "https://www.svgrepo.com/show/305382/arrowhead-right-outline.svg",
+                            "defaultVariant": "PRIMARY"
+                        },
+                        "variants": [
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "PRIMARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Next",
+                                    "image": "https://www.svgrepo.com/show/305382/arrowhead-right-outline.svg",
+                                    "defaultVariant": "PRIMARY"
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "submit",
+                                        "text": "Done"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SECONDARY",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Secondary",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Secondary Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "TEXT",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Text",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Text Button"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "ACTION",
+                                "type": "BUTTON",
+                                "version": "0.1.0",
+                                "variant": "SOCIAL",
+                                "deprecated": false,
+                                "display": {
+                                    "label": "Social",
+                                    "image": null
+                                },
+                                "config": {
+                                    "field": {
+                                        "type": "button",
+                                        "text": "Social Button"
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "dnd-element_78f2a17a-94fe-466e-b7bd-f6bd9b91df24",
+                        "variant": "PRIMARY",
+                        "config": {
+                            "field": {
+                                "type": "submit",
+                                "text": "Done"
+                            }
+                        },
+                        "meta": {
+                            "type": "NEXT"
+                        }
+                    }
+                ]
+            },
+            "id": "dnd-node_770288c2-4ee2-4434-9022-88c9e1208518",
+            "position": {
+                "x": 1788,
+                "y": 722
+            },
+            "type": "STEP",
+            "measured": {
+                "width": 350,
+                "height": 301
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "source": "dnd-node_0006266e-00c4-49af-9571-cee0346abe95",
+            "sourceHandle": "dnd-element_c7eef263-99d5-4f1d-b78a-a1e97d38bd50-NEXT",
+            "target": "dnd-node_1ee91686-d39e-4d3f-8d40-ddd2260c7ea6",
+            "markerEnd": {
+                "type": "arrow"
+            },
+            "type": "base-edge",
+            "id": "xy-edge__dnd-node_0006266e-00c4-49af-9571-cee0346abe95dnd-element_c7eef263-99d5-4f1d-b78a-a1e97d38bd50-NEXT-dnd-node_1ee91686-d39e-4d3f-8d40-ddd2260c7ea6"
+        },
+        {
+            "source": "dnd-node_0006266e-00c4-49af-9571-cee0346abe95",
+            "sourceHandle": "dnd-element_f0dbc184-8d4b-4419-9f78-0982978ebd10-NEXT",
+            "target": "dnd-node_d6011cf4-9763-406c-9c3e-7cb36ce1af27",
+            "markerEnd": {
+                "type": "arrow"
+            },
+            "type": "base-edge",
+            "id": "xy-edge__dnd-node_0006266e-00c4-49af-9571-cee0346abe95dnd-element_f0dbc184-8d4b-4419-9f78-0982978ebd10-NEXT-dnd-node_d6011cf4-9763-406c-9c3e-7cb36ce1af27"
+        },
+        {
+            "source": "dnd-node_1ee91686-d39e-4d3f-8d40-ddd2260c7ea6",
+            "sourceHandle": "dnd-element_16b0e168-9ce0-4b2b-9455-b9452591d12c-NEXT",
+            "target": "dnd-node_770288c2-4ee2-4434-9022-88c9e1208518",
+            "markerEnd": {
+                "type": "arrow"
+            },
+            "type": "base-edge",
+            "id": "xy-edge__dnd-node_1ee91686-d39e-4d3f-8d40-ddd2260c7ea6dnd-element_16b0e168-9ce0-4b2b-9455-b9452591d12c-NEXT-dnd-node_770288c2-4ee2-4434-9022-88c9e1208518"
+        },
+        {
+            "source": "dnd-node_d6011cf4-9763-406c-9c3e-7cb36ce1af27",
+            "sourceHandle": "dnd-element_a67c20fb-5181-4aa6-b10c-4d8fbb2f805f-NEXT",
+            "target": "dnd-node_770288c2-4ee2-4434-9022-88c9e1208518",
+            "markerEnd": {
+                "type": "arrow"
+            },
+            "type": "base-edge",
+            "id": "xy-edge__dnd-node_d6011cf4-9763-406c-9c3e-7cb36ce1af27dnd-element_a67c20fb-5181-4aa6-b10c-4d8fbb2f805f-NEXT-dnd-node_770288c2-4ee2-4434-9022-88c9e1208518"
+        },
+        {
+            "source": "dnd-node_0006266e-00c4-49af-9571-cee0346abe95",
+            "sourceHandle": "dnd-element_07b0a573-ceb9-4ec0-b27f-db4b07ba16b8-NEXT",
+            "target": "dnd-node_770288c2-4ee2-4434-9022-88c9e1208518",
+            "data": {
+                "img": "https://www.svgrepo.com/show/475656/google-color.svg",
+                "label": "Sign in with Google"
+            },
+            "type": "social-connection-edge",
+            "id": "xy-edge__dnd-node_0006266e-00c4-49af-9571-cee0346abe95dnd-element_07b0a573-ceb9-4ec0-b27f-db4b07ba16b8-NEXT-dnd-node_770288c2-4ee2-4434-9022-88c9e1208518"
+        }
+    ],
+    "viewport": {
+        "x": 108.54293371763436,
+        "y": 51.54457748482616,
+        "zoom": 0.5
+    }
+}
